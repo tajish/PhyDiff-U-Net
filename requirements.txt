@@ -1,0 +1,4 @@
+# Core imports for the extracted Python modules and helper scripts
+-e .[notebooks,test]
+# Full Google Colab notebook imports TensorFlow/Keras and google.colab, which are
+# provided by compatible Colab runtimes; see docs/REPRODUCIBILITY.md.

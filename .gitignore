@@ -1,0 +1,18 @@
+# Datasets / checkpoints (not included with the supplied files)
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.zip
+!data/.gitkeep
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.DS_Store
