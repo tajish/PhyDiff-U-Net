@@ -8,7 +8,7 @@
 
 Infrared small-target segmentation is challenging because distant targets may occupy only a few pixels and exhibit weak contrast against complex backgrounds, including clouds, terrain, and reflections. Repeated feature downsampling can further weaken target responses, while background structures with similar intensity patterns may generate false detections.
 
-**PhyDiff U-Net** combines physics-guided feature extraction, efficient Transformer attention, noise-perturbation-guided feature refinement, and uncertainty-aware segmentation. Thermal-contrast and frequency-domain priors guide the encoder; an edge-aware efficient Transformer (EET) models contextual relationships at the bottleneck; and a Feature Restoration Enhancement (FRE) module refines target features before boundary-aware decoding. The network produces a segmentation logit map and a pixel-wise log-variance map, with auxiliary outputs for deep supervision.
+**PhyDiff U-Net** combines physics-guided feature extraction, efficient Transformer attention, noise-perturbation-guided feature refinement, and uncertainty-aware segmentation. Thermal-contrast and frequency-domain priors guide the encoder an edge-aware efficient Transformer (EET) models contextual relationships at the bottleneck and a Feature Restoration Enhancement (FRE) module refines target features before boundary-aware decoding. The network produces a segmentation logit map and a pixel-wise log-variance map, with auxiliary outputs for deep supervision.
 
 ![PhyDiff U-Net architecture](assets/figures/Figure%201.png)
 
